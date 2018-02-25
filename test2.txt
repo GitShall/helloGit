@@ -1,0 +1,8 @@
+double tick = 0, tickP = 0, tickR = 0, tickO = 0;
+	Mat img, raw_img;
+	float confs[] = { 0.6, 0.6, 0.8 };//0.6,0.6,0.8,越大越少,得分阈值
+	float nmss[] = { 0.6, 0.5, 0.3 };//0.7 0.5 0.3，越小越少
+	bool stop = false;
+	int R_num = 0;
+	int O_num = 0;
+	int img_num = 0;
